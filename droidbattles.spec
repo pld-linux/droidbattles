@@ -15,7 +15,6 @@ URL:		http://www.bluefire.nu/droidbattles/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 So, you're having this argument about who's the best programmer? Or
 you just want to have some programming fun? What better way to do it
@@ -87,7 +86,8 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_applnkdir}/Games}
 
 cd %{name}
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 rm docs/en/Makefile*
 cd ..
 for i in bots/*
