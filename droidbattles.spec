@@ -13,8 +13,6 @@ URL:		http://www.bluefire.nu/droidbattles/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 So, you're having this argument about who's the best programmer? Or
