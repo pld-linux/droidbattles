@@ -7,3 +7,4 @@ Icon=droidbattles.png
 Exec=droidbattles
 Terminal=false
 Type=Application
+# vi: encoding=utf-8
