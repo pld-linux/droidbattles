@@ -5,8 +5,6 @@ Version:	1.0.4
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Group(de):	X11/Applikationen/Spiele
-Group(pl):	X11/Aplikacje/Gry
 Source0:	http://www.bluefire.nu/%{name}/%{name}-%{version}.tar.gz
 Source1:	http://www.bluefire.nu/%{name}/bots-light-01-06-11.tar.gz
 Source2:	%{name}.desktop
