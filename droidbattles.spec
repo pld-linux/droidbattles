@@ -6,7 +6,9 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www.bluefire.nu/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	88f71cc17895d3aa77cfbb3428d41dbc
 Source1:	http://www.bluefire.nu/%{name}/bots-light-01-06-11.tar.gz
+# Source1-md5:	358a931c2d795f6c005a9b4da07c1439
 Source2:	%{name}.desktop
 Source3:	%{name}.png
 URL:		http://www.bluefire.nu/droidbattles/
