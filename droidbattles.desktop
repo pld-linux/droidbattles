@@ -4,5 +4,5 @@ Comment=A game of programming
 Comment[pl]=Gra w programowanie
 Icon=droidbattles.png
 Exec=droidbattles
-Terminal=0
+Terminal=false
 Type=Application
