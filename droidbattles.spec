@@ -86,8 +86,6 @@ mv -f installdir.cpp.new installdir.cpp
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_applnkdir}/Games}
 
-gzip -9nf AUTHORS ChangeLog TODO
-
 cd %{name}
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 rm docs/en/Makefile*
@@ -109,7 +107,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog TODO
 %doc %{name}/docs/en/*.html
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/droidbattles
