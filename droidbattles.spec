@@ -1,5 +1,5 @@
 Summary:	A game of programming
-Summary(pl.UTF-8):   Gra w programowanie
+Summary(pl.UTF-8):	Gra w programowanie
 Name:		droidbattles
 Version:	1.0.4
 Release:	1
