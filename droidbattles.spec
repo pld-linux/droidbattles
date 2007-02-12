@@ -1,5 +1,5 @@
 Summary:	A game of programming
-Summary(pl):	Gra w programowanie
+Summary(pl.UTF-8):   Gra w programowanie
 Name:		droidbattles
 Version:	1.0.4
 Release:	1
@@ -40,30 +40,30 @@ simulation runs. When everyhing is ready you assemble the program and
 a .bot file is created. You can now test this bot against other bots
 in the simulator, and hopefully your bot will crush it's opponents.
 
-%description -l pl
-A wiêc spierasz siê o to, kto jest najlepszym programist±? Lub po
-prostu chcesz zaznaæ przyjemno¶ci programowania? Có¿ lepszego mo¿e byæ
-od gry, w której programujesz Sztuczn± Inteligencjê.
+%description -l pl.UTF-8
+A wiÄ™c spierasz siÄ™ o to, kto jest najlepszym programistÄ…? Lub po
+prostu chcesz zaznaÄ‡ przyjemnoÅ›ci programowania? CÃ³Å¼ lepszego moÅ¼e byÄ‡
+od gry, w ktÃ³rej programujesz SztucznÄ… InteligencjÄ™.
 
-W DroidBattles projektujesz boty wybieraj±c jaki hardware powinny
-zawieraæ. Ka¿dy bot mo¿e pomie¶ciæ do 32 urz±dzeñ sprzêtowych, które
-mo¿esz dowolnie wybieraæ z dostêpnej listy. Mog± to byæ bronie,
+W DroidBattles projektujesz boty wybierajÄ…c jaki hardware powinny
+zawieraÄ‡. KaÅ¼dy bot moÅ¼e pomieÅ›ciÄ‡ do 32 urzÄ…dzeÅ„ sprzÄ™towych, ktÃ³re
+moÅ¼esz dowolnie wybieraÄ‡ z dostÄ™pnej listy. MogÄ… to byÄ‡ bronie,
 pancerz, CPU, silniki... etc.
 
-Gdy wybra³e¶ ju¿ sprzêt, nadszed³ czas na zaprogramowanie. Tworzysz
-program (w jêzyku podobnym do assemblera), który jest ³adowany do
-wirtualnego RAMu bota, a nastêpnie wykonywany przez jednostki
-przetwarzania, które zainstalowa³e¶ w bocie. Komunikujesz siê ze
-swoimi urz±dzeniami za pomoc± prostych instrukcji wej¶cia/wyj¶cia.
+Gdy wybraÅ‚eÅ› juÅ¼ sprzÄ™t, nadszedÅ‚ czas na zaprogramowanie. Tworzysz
+program (w jÄ™zyku podobnym do assemblera), ktÃ³ry jest Å‚adowany do
+wirtualnego RAMu bota, a nastÄ™pnie wykonywany przez jednostki
+przetwarzania, ktÃ³re zainstalowaÅ‚eÅ› w bocie. Komunikujesz siÄ™ ze
+swoimi urzÄ…dzeniami za pomocÄ… prostych instrukcji wejÅ›cia/wyjÅ›cia.
 
-W¶ród innych zalet DroidBattles mo¿na wymieniæ bitwy dru¿ynowe, jak i
-zestawy "zasad" dla gry (mo¿esz w³±czaæ/wy³±czaæ urz±dzenia sprzêtowe,
-a tak¿e ustawiaæ koszt.)
+WÅ›rÃ³d innych zalet DroidBattles moÅ¼na wymieniÄ‡ bitwy druÅ¼ynowe, jak i
+zestawy "zasad" dla gry (moÅ¼esz wÅ‚Ä…czaÄ‡/wyÅ‚Ä…czaÄ‡ urzÄ…dzenia sprzÄ™towe,
+a takÅ¼e ustawiaÄ‡ koszt.)
 
-Mo¿esz stworzyæ dla bota jego w³asn± grafikê, która bêdzie pokazywana
+MoÅ¼esz stworzyÄ‡ dla bota jego wÅ‚asnÄ… grafikÄ™, ktÃ³ra bÄ™dzie pokazywana
 podczas symulacji. Gdy wszystko jest gotowe, assemblujesz program i
-utworzony zostaje plik .bot. Mo¿esz wtedy przetestowaæ bota w starciu
-z innymi botami w symulatorze i przy dozie szczê¶cia zostaæ zwyciêzc±.
+utworzony zostaje plik .bot. MoÅ¼esz wtedy przetestowaÄ‡ bota w starciu
+z innymi botami w symulatorze i przy dozie szczÄ™Å›cia zostaÄ‡ zwyciÄ™zcÄ….
 
 %prep
 %setup -q
