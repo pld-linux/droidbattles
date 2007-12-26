@@ -1,9 +1,8 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=droidbattles
 Comment=A game of programming
 Comment[pl]=Gra w programowanie
-Icon=droidbattles.png
+Icon=droidbattles
 Exec=droidbattles
 Terminal=false
 Type=Application
